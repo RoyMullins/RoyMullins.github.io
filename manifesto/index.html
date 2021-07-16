@@ -1,0 +1,94 @@
+
+<html><head>
+  <title>Roy-Mullins Campaign 2021</title>
+  <link rel="shortcut icon" type="image/svg" href="/assets/RMFavicon.svg">
+<style>
+body {margin:0;}
+  
+@font-face {
+  font-family: "Montserrat";
+  src: url('/assets/Montserrat-Light.ttf');
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  color: #ffffff;
+  background-color:#1d4289;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1d4289;
+  color: white;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #1d4289;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/join">Join</a></li>
+  <li><a class="active" href="/manifesto">Manifesto</a></li>
+  <li><a href="/suggest">Suggest</a></li>
+  <li><a href="/contact">Contact</a></li>
+</ul>
+
+<div style="padding:20px;background-color:#1d4289;"><br>
+  
+  <br><br>
+  
+  <img src="/assets/rmlogo.svg" width="30%">
+  <br>
+  <hr>
+  <div id="adobe-dc-view"></div>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function()
+    {
+        var adobeDCView = new AdobeDC.View({clientId: "e04d0498cc33400fafbf4a6be62fa80d", divId: "adobe-dc-view"});
+        adobeDCView.previewFile(
+       {
+          content:   {location: {url: "/assets/Roy-Mullins Manifesto.pdf"}},
+          metaData: {fileName: "Roy-Mullins Manifesto.pdf"}
+       });
+    });
+  </script>
+  <hr>
+  <h2>Roy-Mullins</h2>
+  <h3>A Campaign For All.</h3>
+
+</div>
+
+
+
+
+
+</body></html>
